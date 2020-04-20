@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Miko Button", "Miko Button\Miko Button.csproj", "{7BCD25F1-043B-4F79-9E4C-04427DE7E8A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7BCD25F1-043B-4F79-9E4C-04427DE7E8A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BCD25F1-043B-4F79-9E4C-04427DE7E8A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BCD25F1-043B-4F79-9E4C-04427DE7E8A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BCD25F1-043B-4F79-9E4C-04427DE7E8A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {50579D33-6137-4EF9-897F-69B3CE21F77E}
+	EndGlobalSection
+EndGlobal
