@@ -33,8 +33,15 @@ namespace Miko_Button
 
         private void PlaySound(string sound_file)
         {
-            player = new System.Media.SoundPlayer(sound_file);
-            player.Play();
+            try
+            {
+                player = new System.Media.SoundPlayer(sound_file);
+                player.Play();
+            }
+            catch(System.IO.FileNotFoundException)
+            {
+                MessageBox.Show("ファイルが見つかりませんでした。", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void hello_Click(object sender, EventArgs e)

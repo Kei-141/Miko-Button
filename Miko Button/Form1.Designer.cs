@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.hello = new System.Windows.Forms.Button();
             this.nyahello = new System.Windows.Forms.Button();
             this.faq = new System.Windows.Forms.Button();
@@ -383,6 +384,7 @@
             this.Controls.Add(this.faq);
             this.Controls.Add(this.nyahello);
             this.Controls.Add(this.hello);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MainForm";
             this.Text = "Miko Button";
             this.ResumeLayout(false);
